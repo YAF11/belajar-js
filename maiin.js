@@ -49,12 +49,14 @@ for(let number = 1; number <= 20; number++){
 } 
  document.write("<br>")
 // logic 1, soal 1
+document.write("logic 1, soal 1")
+document.write("<br>")
 for (let y = 1; y <=9; y++){
     for(let x = 1; x <= 9; x++){
         if (x==y) {
             document.write("*")
         } else {
-            document.write("~") 
+            document.write("&ensp;") 
         }
     }
     document.write("<br>");
@@ -63,12 +65,14 @@ for (let y = 1; y <=9; y++){
 document.write("<br>")
 
 //logic 1, soal 2
+document.write("logic 1, soal 2")
+document.write("<br>")
 for (let y = 1; y <=9; y++){
     for(let x = 1; x <= 9; x++){
         if (x+y == 10) {
             document.write("*")
         } else {
-            document.write("~") 
+            document.write("&ensp;") 
         }
     }
     document.write("<br>");
@@ -77,12 +81,14 @@ for (let y = 1; y <=9; y++){
 document.write("<br>")
 
 //logic 1, soal 3
+document.write("logic 1, soal 3")
+document.write("<br>")
 for (let y = 1; y <=9; y++){
     for(let x = 1; x <= 9; x++){
         if (x==y || x+y == 10) {
             document.write("*")
         } else {
-            document.write("~") 
+            document.write("&ensp;") 
         }
     }
     document.write("<br>");
@@ -91,12 +97,14 @@ for (let y = 1; y <=9; y++){
 document.write("<br>")
 
 //logic 1, soal 4
+document.write("logic 1, soal 4")
+document.write("<br>")
 for (let y = 1; y <=9; y++){
     for(let x = 1; x <= 9; x++){
         if (x==5 || y==5 || x==y || x+y == 10) {
             document.write("*")
         } else {
-            document.write("~") 
+            document.write("&ensp;") 
         }
     }
     document.write("<br>");
@@ -105,12 +113,14 @@ for (let y = 1; y <=9; y++){
 document.write("<br>")
 
 //logic 1, soal 5
+document.write("logic 1, soal 5")
+document.write("<br>")
 for (let y = 1; y <=9; y++){
     for(let x = 1; x <= 9; x++){
         if (x<=y) {
             document.write("*")
         } else {
-            document.write("~") 
+            document.write("&ensp;") 
         }
     }
     document.write("<br>");
@@ -119,12 +129,14 @@ for (let y = 1; y <=9; y++){
 document.write("<br>")
 
 //logic 1, soal 6
+document.write("logic 1, soal 6")
+document.write("<br>")
 for (let y = 1; y <=9; y++){
     for(let x = 1; x <= 9; x++){
         if (x+y >= 10) {
             document.write("*")
         } else {
-            document.write("~") 
+            document.write("&ensp;") 
         }
     }
     document.write("<br>");
@@ -133,12 +145,14 @@ for (let y = 1; y <=9; y++){
 document.write("<br>")
 
 //logic 1, soal 7
+document.write("logic 1, soal 7")
+document.write("<br>")
 for (let y = 1; y <=9; y++){
     for(let x = 1; x <= 9; x++){
         if (y<=x && x+y<=10 || y>=x && x+y>=10) {
             document.write("*")
         } else {
-            document.write("~") 
+            document.write("&ensp;") 
         }
     }
     document.write("<br>");
@@ -147,12 +161,14 @@ for (let y = 1; y <=9; y++){
 document.write("<br>")
 
 //logic 1, soal 8
+document.write("logic 1, soal 8")
+document.write("<br>")
 for (let y = 1; y <=9; y++){
     for(let x = 1; x <= 9; x++){
         if (x<=y && x+y<=10 || x>=y && x+y>=10) {
             document.write("*")
         } else {
-            document.write("~") 
+            document.write("&ensp;") 
         }
     }
     document.write("<br>");
@@ -165,7 +181,7 @@ for (let y = 1; y <=9; y++){
         if (x>=y) {
             document.write("*")
         } else {
-            document.write("~") 
+            document.write("&ensp;") 
         }
     }
     document.write("<br>");
@@ -175,13 +191,15 @@ for (let y = 1; y <=9; y++){
 document.write("<br>")
 
 // logic 2, soal 1
+document.write("logic 2, soal 1")
+document.write("<br>")
 for (let y = 1; y <=9; y++){
     for(let x = 1; x <= 9; x++){
         if (x==y) {
             document.write(x*2-1)
         }
          else {
-            document.write("~") 
+            document.write("&ensp;") 
         }
     }
     document.write("<br>");
@@ -190,12 +208,14 @@ for (let y = 1; y <=9; y++){
 document.write("<br>")
 
 // logic 2, soal 2
+document.write("logic 2, soal 2")
+document.write("<br>")
 for (let y = 1; y <=9; y++){
     for(let x = 1; x <= 9; x++){
         if (x+y == 10) {
             document.write(x*2-2)
         } else {
-            document.write("~") 
+            document.write("&ensp;") 
         }
     }
     document.write("<br>");
@@ -204,6 +224,8 @@ for (let y = 1; y <=9; y++){
 document.write("<br>")
 
 // logic 2, soal 3
+document.write("logic 2, soal 3")
+document.write("<br>")
 for (let y = 1; y <=9; y++){
     for(let x = 1; x <= 9; x++){
         if (x==y) {
@@ -212,7 +234,7 @@ for (let y = 1; y <=9; y++){
             document.write(x*2-2)
         }
          else {
-            document.write("~") 
+            document.write("&ensp;") 
         }
     }
     document.write("<br>");
@@ -221,15 +243,17 @@ for (let y = 1; y <=9; y++){
 document.write("<br>")
 
 // logic 2, soal 4
+document.write("logic 2, soal 4")
+document.write("<br>")
 for (let y = 1; y <=9; y++){
     for(let x = 1; x <= 9; x++){
         if (x==y || x==5) {
-            document.write(y*2-1)
+            document.write(" ", y*2-1 ," ")
         }else if(x+y == 10 || y==5){
-            document.write(x*2-2)
+            document.write(" ", x*2-2 ," ")
         }
          else {
-            document.write("~") 
+            document.write("&ensp;") 
         }
     }
     document.write("<br>");
@@ -237,12 +261,14 @@ for (let y = 1; y <=9; y++){
 document.write("<br>")
 
 // logic 2, soal 5
+document.write("logic 2, soal 5")
+document.write("<br>")
 for (let y = 1; y <=9; y++){
     for(let x = 1; x <= 9; x++){
         if (x<=y) {
-            document.write(x*2-1)
+            document.write(" ", x*2-1 ," ")
         } else {
-            document.write("~") 
+            document.write("&ensp;") 
         }
     }
     document.write("<br>");
@@ -251,12 +277,14 @@ for (let y = 1; y <=9; y++){
 document.write("<br>")
 
 // logic 2, soal 6
+document.write("logic 2, soal 6")
+document.write("<br>")
 for (let y = 1; y <=9; y++){
     for(let x = 1; x <= 9; x++){
         if (x+y >= 10) {
-            document.write(-y*2+18)
+            document.write(" ", -y*2+18 ," ")
         } else {
-            document.write("~") 
+            document.write("&ensp;") 
         }
     }
     document.write("<br>");
@@ -265,6 +293,8 @@ for (let y = 1; y <=9; y++){
 document.write("<br>")
 
 // logic 2, soal 7
+document.write("logic 2, soal 7")
+document.write("<br>")
 for (let y = 1; y <=9; y++){
     for(let x = 1; x <= 9; x++){
         if (x==y) {
@@ -276,7 +306,7 @@ for (let y = 1; y <=9; y++){
         }else if(y>=x && x+y>=10){
             document.write("B")
         }else {
-            document.write("~") 
+            document.write("&ensp;") 
         }
     }
     document.write("<br>");
@@ -285,6 +315,8 @@ for (let y = 1; y <=9; y++){
 document.write("<br>")
 
 // logic 2, soal 8
+document.write("logic 2, soal 8")
+document.write("<br>")
 for (let y = 1; y <=9; y++){
     for(let x = 1; x <= 9; x++){
         if (x==y) {
@@ -296,7 +328,7 @@ for (let y = 1; y <=9; y++){
         }else if(x>=y && x+y>=10){
             document.write("B")
         }else {
-            document.write("~") 
+            document.write("&ensp;") 
         }
     }
     document.write("<br>");
