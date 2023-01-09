@@ -1,0 +1,7 @@
+JavaScript -> Bahasa pemrograman tingkat tinggi dan dinamis
+yang cara umum berjalan di browser
+
+JavaScript -> is a single thread, non-blocking,asycronous
+and concurent language
+
+v8 engine on browser 
